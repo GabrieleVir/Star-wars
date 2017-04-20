@@ -1,0 +1,55 @@
+body {
+	background-color: white;
+	width:1280px;
+	height: 720px;
+	margin: 0 auto;
+	padding:0 auto;
+	position:relative;
+}
+
+@font-face {
+    font-family: 'Starjedi';
+    src: url(fonts/Starjedi.ttf) format("truetype");
+}
+
+@keyframes Zoom {
+	0% {
+		transform: scale(1.5);}
+	100% {
+		transform: scale(0);}
+
+}
+
+#starwars{
+	position:absolute;
+	margin:0px;
+	text-align: center;
+	animation:Zoom 5s linear forwards;
+	margin-top:150px;
+}
+
+#starwars div {
+	
+
+
+}
+
+h1 {
+	font-size:300px;
+	color:yellow;
+	margin:0 auto;
+	margin-left: 100px;
+	line-height: 73%;
+
+	
+}
+
+br {
+	margin-left: 40px;
+	
+}
+
+.solution p {
+	font-weight: 0px;
+	
+}
