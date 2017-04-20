@@ -1,0 +1,23 @@
+body {
+    background-image: url(images/fond.png);
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    font-family:;
+    font-size: 50px;
+    color: bisque;
+    margin-top: 290px;
+    margin-left: 190px;
+}
+
+@keyframes fadeinout {
+    0%, 100% { opacity:0;}
+    50% { opacity: 1;}
+}
+
+#first p {
+    animation: fadeinout 7s linear forwards;
+}
+
